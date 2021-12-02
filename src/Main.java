@@ -7,12 +7,12 @@ public class Main {
             bonus = 0;
             System.out.println("Bonus = 0");
         } else {
-            bonus = refill/100;
+            bonus = refill / 100;
             System.out.print("Bonus = ");
             System.out.println(bonus);
         }
-        int resultbalance=balance+refill+bonus;
+        int resultBalance = balance + refill + bonus;
         System.out.print("Result Balance = ");
-        System.out.println(resultbalance);
+        System.out.println(resultBalance);
     }
 }
